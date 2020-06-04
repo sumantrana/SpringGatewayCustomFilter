@@ -1,0 +1,28 @@
+server:
+  port: 9090
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: path_route
+          uri: http://localhost:8080/
+          predicates:
+            - Path=/myDefaultBook
+          filters:
+            - RewritePath=/myDefaultBook, /defaultBook
+
+
+    loadbalancer:
+      ribbon:
+        enabled: false
+
+management:
+  endpoint:
+    gateway:
+      enabled: true
+
+  endpoints:
+    web:
+      exposure:
+        include: gateway
+

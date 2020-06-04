@@ -1,0 +1,20 @@
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
+    reactor.netty.http.client: DEBUG
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: path_route
+          uri: http://localhost:8080/
+          predicates:
+            - Path=/myDefaultBook
+          filters:
+            - ConvertPostToGetGatewayFilter
+            - RewritePath=/myDefaultBook, /defaultBook
+
+
+
+
