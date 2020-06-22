@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df3f41c8-975b-4742-a62f-61132c07a099" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sumant/springboot/learning/springcloudgateway/EncryptDecryptFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sumant/springboot/learning/springcloudgateway/EncryptDecryptHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/sumant/springboot/learning/springcloudgateway/GatewayEncryptDecryptTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sumant/springboot/learning/springcloudgateway/GatewayEncryptDecryptTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sumant/springboot/learning/springcloudgateway/GatewayEncryptDecryptTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1591227920280</updated>
       <workItem from="1591227924114" duration="2645000" />
-      <workItem from="1592673828796" duration="12541000" />
+      <workItem from="1592673828796" duration="12985000" />
     </task>
     <servers />
   </component>
