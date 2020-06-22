@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df3f41c8-975b-4742-a62f-61132c07a099" name="Default Changelist" comment="" />
+    <list default="true" id="df3f41c8-975b-4742-a62f-61132c07a099" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sumant/springboot/learning/springcloudgateway/EncryptDecryptFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sumant/springboot/learning/springcloudgateway/EncryptDecryptHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/sumant/springboot/learning/springcloudgateway/GatewayEncryptDecryptTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/application.yaml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -15,13 +33,26 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1cpaK1lPtnXwmmB1MJYHeWUq28l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/sumant/springboot/learning/springcloudgateway" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sumant.springboot.learning.springcloudgateway" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/sumant/springboot/learning/springcloudgateway" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -35,7 +66,38 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.GatewayEncryptDecryptTests.encryptDecryptFilter_decryptsDefaultBook_and_EncryptsDefaultResponse">
+    <configuration name="GatewayEncryptDecryptTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springcloudgateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sumant.springboot.learning.springcloudgateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sumant.springboot.learning.springcloudgateway" />
+      <option name="MAIN_CLASS_NAME" value="com.sumant.springboot.learning.springcloudgateway.GatewayEncryptDecryptTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayEncryptDecryptTests.encryptDecryptFilter_decryptsDefaultBook_and_EncryptsDefaultResponse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springcloudgateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sumant.springboot.learning.springcloudgateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sumant.springboot.learning.springcloudgateway" />
+      <option name="MAIN_CLASS_NAME" value="com.sumant.springboot.learning.springcloudgateway.GatewayEncryptDecryptTests" />
+      <option name="METHOD_NAME" value="encryptDecryptFilter_decryptsDefaultBook_and_EncryptsDefaultResponse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringcloudgatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springcloudgateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.sumant.springboot.learning.springcloudgateway.SpringcloudgatewayApplication" />
@@ -43,6 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GatewayEncryptDecryptTests.encryptDecryptFilter_decryptsDefaultBook_and_EncryptsDefaultResponse" />
+        <item itemvalue="JUnit.GatewayEncryptDecryptTests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -54,11 +122,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591227920280</updated>
-      <workItem from="1591227924114" duration="278000" />
+      <workItem from="1591227924114" duration="2645000" />
+      <workItem from="1592673828796" duration="12541000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

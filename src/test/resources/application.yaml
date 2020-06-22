@@ -1,7 +1,10 @@
+
+
 logging:
   level:
     org.springframework.cloud.gateway: DEBUG
     reactor.netty.http.client: DEBUG
+    org.apache.http: DEBUG
 
 spring:
   cloud:
@@ -15,6 +18,20 @@ spring:
             - ConvertPostToGetGatewayFilter
             - RewritePath=/myDefaultBook, /defaultBook
 
+        - id: book_encrypt_decrypt_route
+          uri: http://localhost:8080/
+          predicates:
+            - Path=/createBook
+          filters:
+            - EncryptDecryptFilter
+            - RewritePath=/createBook, /api/book
 
+
+
+server:
+
+  compression:
+    mime-types: application/json
+    enabled: false
 
 

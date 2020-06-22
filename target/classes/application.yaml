@@ -11,6 +11,14 @@ spring:
           filters:
             - RewritePath=/myDefaultBook, /defaultBook
 
+        - id: book_encrypt_decrypt_route
+          uri: http://localhost:8080/
+          predicates:
+            - Path=/createBook
+          filters:
+            - EncryptDecryptFilter
+            - RewritePath=/createBook, /api/book
+
 
     loadbalancer:
       ribbon:
